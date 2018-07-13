@@ -13,4 +13,6 @@ def dictionary
   }
 end
 
-def word_substituter(string)
+def word_substituter(string) 
+  string.
+end
