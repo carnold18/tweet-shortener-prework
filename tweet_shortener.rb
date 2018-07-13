@@ -16,7 +16,7 @@ end
 def word_substituter(string) 
   string.split(" ").each_with_index do |item, index|
     if dictionary.keys.include?(item.downcase)
-      string.delete(index) && string.insert(index, dictionary[item.downcase])
+      string.delete!(index) && string.insert(index, dictionary[item.downcase])
       end
     end
   return string.join(" ")
