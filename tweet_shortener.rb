@@ -40,4 +40,5 @@ end
 def shortened_tweet_truncator(string)
   if string.length > 140
     string.delete_at(140) && string.insert("...")
+  end
 end
