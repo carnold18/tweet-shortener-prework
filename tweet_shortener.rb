@@ -23,11 +23,6 @@ def word_substituter(string)
   return tweet.join(" ")
 end
 
-def bulk_tweet_shortener(tweet)
-  tweet.each_with_index do |item, index|
-    if dictionary.keys.include?(item.downcase)
-      tweet.delete_at(index) && tweet.insert(index, dictionary[item.downcase])
-      end
-    end
-  return tweet 
+def bulk_tweet_shortener(array)
+  
 end
