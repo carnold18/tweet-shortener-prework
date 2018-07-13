@@ -15,7 +15,7 @@ end
 
 def word_substituter(string) 
   string.split(" ").each do |key,value|
-    if key == keys.subs
+    if key == subs.keys
       puts key
       end
     end
