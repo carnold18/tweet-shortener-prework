@@ -29,5 +29,5 @@ def bulk_tweet_shortener(tweet)
       tweet.delete_at(index) && tweet.insert(index, dictionary[item.downcase])
       end
     end
-  puts tweet 
+  return tweet 
 end
