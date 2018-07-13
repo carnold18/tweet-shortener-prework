@@ -31,4 +31,3 @@ def bulk_tweet_shortener(tweet)
     end
   puts tweet 
 end
-end
