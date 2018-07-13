@@ -19,5 +19,5 @@ def word_substituter(string)
       words.delete_at(index) && words.insert(index, dictionary[word.downcase])
       end
     end
-  string.join(" ")
+  return string.join(" ")
 end
