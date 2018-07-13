@@ -15,5 +15,9 @@ end
 
 def word_substituter(string) 
   string.split(" ").each do |key,value|
-    if 
+    if key == keys.subs
+      puts key
+      end
+    end
+  string.join()
 end
