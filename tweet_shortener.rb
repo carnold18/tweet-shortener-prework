@@ -29,5 +29,5 @@ def bulk_tweet_shortener(array)
 end
 
 def selective_tweet_shortener(string)
-  string.
+  string.each_char.to_a
 end
