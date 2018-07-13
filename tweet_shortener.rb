@@ -22,3 +22,4 @@ def word_substituter(string)
     end
   return tweet.join(" ")
 end
+
