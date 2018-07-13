@@ -20,7 +20,7 @@ def word_substituter(string)
       tweet.delete_at(index) && tweet.insert(index, dictionary[item.downcase])
       end
     end
-  return tweet.join(" ")
+  puts tweet.join(" ")
 end
 
 def bulk_tweet_shortener(array)
