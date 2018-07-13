@@ -1,5 +1,5 @@
 def dictionary 
-  subs = {
+  dictionary = {
     "hello" => "hi",
     "to" => "2",
     "two" => "2",
@@ -14,10 +14,10 @@ def dictionary
 end
 
 def word_substituter(string) 
-  string.split(" ").each do |key,value|
-    if key == subs.keys
+  string.split(" ").each_with_index do |word,index|
+    if key == dictionary.keys
       puts key
       end
     end
-  string.join()
+  string.join(" ")
 end
